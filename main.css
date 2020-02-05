@@ -1,0 +1,60 @@
+* {
+    margin: 0px 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+.top {
+    padding: 40px;
+    background-color: Black;
+    opacity: 90%;
+    margin: 0px 0px;
+}
+
+.side1 {
+    margin-left: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    float: left;
+}
+
+.side2 {
+    float: right;
+    margin-right: 10px;
+    display: inline-block;
+    color: teal;
+    font-size: 20px;
+}
+
+.topbantext {
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 30px;
+}
+
+.topban {
+    margin-top: 30px;
+    background-color: black;
+    opacity: 90%;
+}
+
+a {
+    background-color: gray;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
