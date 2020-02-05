@@ -1,5 +1,6 @@
 let video;
 let flipVideo;
+let score = 0;
 
 // Storing the label
 let label = "waiting...";
@@ -75,11 +76,16 @@ function draw() {
     textSize(32);
     fill(255);
     text(label, 10, 50);
+    textSize(32);
+    fill(255);
+    text(score, 10, 500);
 
     // Draw the game
     scale(rez);
     if (snake.eat(food)) {
         foodLocation();
+        score += 1;
+
     }
     snake.update();
     snake.show();
